@@ -18,6 +18,7 @@ import ProductPage from './components/AdminDashboard/AdminComponents/ProductPage
 import OrderPage from './components/AdminDashboard/AdminComponents/OrderPage/OrderPage';
 import UserPage from './components/AdminDashboard/AdminComponents/UserPage/UserPage';
 import SellerPage from './components/AdminDashboard/AdminComponents/SellerPage/SellerPage';
+import AddBookComponent from './components/AdminDashboard/AdminComponents/AddBookComponent';
 
 
 const App = () => {
@@ -133,7 +134,7 @@ const App = () => {
             <Route path={'/products'} component={ProductPage} />
             <Route path='/orders' component={OrderPage} />
             <Route path='/users' component={UserPage} />
-            <Route path='/seller' component={SellerPage} />
+            <Route path='/add_product' component={AddBookComponent} />
           </Switch>
         </div>
       </Router>

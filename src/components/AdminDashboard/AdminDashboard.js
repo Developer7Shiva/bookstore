@@ -5,6 +5,7 @@ import OrderPage from "../AdminDashboard/AdminComponents/OrderPage/OrderPage";
 import UserPage from "../AdminDashboard/AdminComponents/UserPage/UserPage";
 import SellerPage from "../AdminDashboard/AdminComponents/SellerPage/SellerPage";
 import { BrowserRouter as Router, Route } from 'react-router-dom'; 
+import { AddProductPage } from './AdminComponents/AddProductPage/AddProductPage';
 
 function AdminDashboard() {
 
@@ -16,6 +17,7 @@ function AdminDashboard() {
                     <Route path='/orders' element={<OrderPage />} />
                     <Route path='/users' element={<UserPage />} />
                     <Route path='/seller' element={<SellerPage />} />
+                    <Route path='/add_product' element = {<AddProductPage/>}/>
 
             </Router>
         </>

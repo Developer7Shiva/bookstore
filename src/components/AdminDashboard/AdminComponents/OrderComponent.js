@@ -31,6 +31,7 @@ function OrderComponent() {
                             <th scope="col" className="col-sm-3" style={{textOverflow: "ellipsis"}}>Quantity</th>
                             <th scope="col" className="col-sm-3" style={{textOverflow: "ellipsis"}}>Total Cost</th>
                             <th scope="col" className="col-sm-3" style={{textOverflow: "ellipsis"}}>Reader Id</th>
+                            <th scope="col" className="col-sm-3" style={{textOverflow: "ellipsis"}}>Order Status</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,6 +43,7 @@ function OrderComponent() {
                                 <td>{order.quantity} </td>
                                 <td>{order.totalCost}</td>
                                 <td>{order.readerId} </td>
+                                <td>{order.orderStatus} </td>
                             </tr>
                         )}
                     </tbody>

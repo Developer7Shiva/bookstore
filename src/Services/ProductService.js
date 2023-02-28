@@ -9,7 +9,6 @@ class ProductService {
         return axios.get(PRODUCT_API_BASE_URL+'/getbooks');
     }
     createProduct(product){
-        alert("product added")
         return axios.post(PRODUCT_API_BASE_URL+'/saveproducts',product);
     }
 

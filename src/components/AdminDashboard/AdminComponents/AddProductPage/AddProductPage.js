@@ -1,14 +1,14 @@
-import {AddProductComponent} from "../AddProductComponent"
+import React from "react"
+import AddBookComponent from "../AddBookComponent"
 import Sidebar from "../Sidebar/Sidebar"
-export const AddProductPage=()=>{
-    return(
+// import { AddBookComponent } from "../AddBookComponent"
+export const AddProductPage = () => {
+    return (
         <div>
-         <Navbar/>
-        <div style={{display:"flex" , flexDirection : "row"}}>
-        <Sidebar/>
-        <AddProductComponent/>
-        </div>
-        <Footer/>
+            <div style={{ display: "flex", flexDirection: "row" }}>
+                {/* <Sidebar /> */}
+                <AddBookComponent />
+            </div>
         </div>
     )
 }

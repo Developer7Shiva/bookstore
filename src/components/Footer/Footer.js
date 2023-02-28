@@ -10,10 +10,10 @@ const Footer = () => {
           <MDBCol md="3" lg="3" xl="4" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
             <img src={logo} alt="Book Store App" height="50px" />
-               <strong>Book-Bookye</strong>              
+               <strong>Book-A-Book</strong>              
             </h6>
             <p>
-            Book-Bookye is an online React web application where the customer can purchase books online.
+            Book-A-Book is an online React web application where the customer can purchase books online.
              Through this book store the users can search for a book by its title and
              later can add to the shopping cart and finally purchase the Books.
             </p>
@@ -22,7 +22,7 @@ const Footer = () => {
           <MDBCol md="2" lg="2" xl="2" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold"><strong>Userful Links</strong></h6>
             <p>
-              <a href="">Book-Bookye</a>
+              <a href="/">Book-A-Book</a>
             </p>
             <p>
               <a href="https://google.com"> Website Contact</a>
@@ -36,7 +36,7 @@ const Footer = () => {
           <MDBCol md="4" lg="3" xl="3" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold"><strong>Contact</strong></h6>
             <p>
-              <i className="fa fa-envelope mr-3" /> DeveloersGroup@bookbookye.com
+              <i className="fa fa-envelope mr-3" /> Developers.group3@bookabook.com
             </p>
             <p>
               <i className="fa fa-phone mr-3" /> +91 8754143007
@@ -51,7 +51,7 @@ const Footer = () => {
           <MDBCol md="8" lg="8">
             <p className="text-center text-md-left grey-text">
               &copy; {new Date().getFullYear()} Made by
-              <a href=""> Master Developers@3 </a>
+              <a href="/"> Master Mind Developers@3 </a>
             </p>
           </MDBCol>
           <MDBCol md="4" lg="4" className="ml-lg-0">

@@ -46,7 +46,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li className="nav-item mb-5">
-            <a className="nav-link text-secondary" href="users">
+            <a className="nav-link text-secondary" href="/users">
               <i className="fas fa-tablet-alt font-weight-bold"></i>
               <span className="ml-3" style={{ padding: "1rem", fontSize: "1.5rem", fontFamily: "cursive" }}>Reader List</span>
             </a>

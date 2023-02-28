@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 
 import ProductService from '../../../Services/ProductService';
@@ -23,6 +24,7 @@ function ProductComponent() {
         <div>
             <div style={{paddingRight: "10%"}}>
                 <h1 style={{ paddingTop: "5%", textAlign: 'center', marginTop: "100px"}}>List of Books</h1>
+            <Button className='btn p-3 btn-md ' style={{textColor: 'white'}}><a href='/add_product'>Add Book</a></Button>
                 <table className="table table-striped" >
                     <thead>
                         <tr>
